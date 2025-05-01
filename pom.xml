@@ -3,6 +3,8 @@
   <groupId>onlinebookstore</groupId>
   <artifactId>onlinebookstore</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<name>Online Book Store</name>
+<description>A sample J2EE web application for bookstore</description>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -11,8 +13,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
       <plugin>
